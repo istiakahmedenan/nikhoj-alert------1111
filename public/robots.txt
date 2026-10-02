@@ -1,0 +1,10 @@
+# Nikhoj Alert - Robots.txt
+# https://nikhojalert.online
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/admin/
+
+# Sitemap
+Sitemap: https://nikhojalert.online/sitemap.xml

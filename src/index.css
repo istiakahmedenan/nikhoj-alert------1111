@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Bengali', 'Hind Siliguri', 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Make numbers crisp, tabular and legible */
+  .font-mono, [data-num], .number-clean {
+    font-family: 'Inter', 'Noto Sans Bengali', monospace, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+}
